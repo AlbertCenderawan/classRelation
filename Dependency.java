@@ -2,7 +2,6 @@ class Bensin
 {
     public static String jenisBensin;
     public static int hargaBensin;
-    public static int hargaMinyak;
 
     public void infoBensin()
     {
