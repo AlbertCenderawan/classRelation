@@ -34,23 +34,23 @@ class KetuaRT
 
 class wargaRT
 {
-    public static String namaLengkap;
-    public static char jenisKelamin;
-    public static String alamatRumah;
-    public static String nomorKodeRT;
-    public static String status;
+    public String namaLengkap;
+    public char jenisKelamin;
+    public String alamatRumah;
+    public String nomorKodeRT;
+    public String status;
 
-    public static void infoWarga()
+    public void infoWarga()
     {
         System.out.println("Data Kependudukan");
-        System.out.println("Nama Lengkap  = " + namaLengkap);
-        System.out.println("Jenis Kelamin = " + jenisKelamin);
-        System.out.println("Alamat Rumah  = " + alamatRumah);
+        System.out.println("Nama Lengkap  = " + this.namaLengkap);
+        System.out.println("Jenis Kelamin = " + this.jenisKelamin);
+        System.out.println("Alamat Rumah  = " + this.alamatRumah);
     }
 
-    public static void infoRT(KetuaRT ketuaRT)
+    public void infoRT()
     {
-        System.out.println("RT " + nomorKodeRT);
-        System.out.println("Nama Ketua RT = " + ketuaRT.namaKetua);
+        System.out.println("RT " + this.nomorKodeRT);
+        System.out.println("Nama Ketua RT = " + KetuaRT.namaKetua);
     }
 }
