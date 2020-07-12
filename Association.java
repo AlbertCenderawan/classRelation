@@ -1,5 +1,6 @@
 class KetuaRT
 {
+    // ujicoba code untuk ditambahkan entah master atau tidak
     public static String nomorKodeRT;
     public static String namaKetua;
     public static char jenisKelamin;
